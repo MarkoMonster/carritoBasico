@@ -1,0 +1,106 @@
+:root{
+    --indigo:       #6610f2;
+    --indigo-hover: #290661;
+    --limon:     #F2E30F;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+.color-nav{
+    background-color: var(--indigo);
+}
+.logo{
+    color: var(--limon);
+}
+.carrusel{
+    background: var(--indigo);
+}
+.indigo{
+    color: var(--indigo);
+}
+.fa-gamepad,
+.fa-headset,
+.fa-xbox{
+    font-size: 74px;
+}
+.caja{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(180, 180, 180, .5);
+    padding: 15px;
+}
+/*Carrito*/
+.submenu{
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+
+    top: 100%;
+    z-index: 10;
+    background: #fff;
+    padding: 10px;
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 380px;
+    overflow:auto;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.borrar-curso{
+    border-radius: 50%;
+    padding: 8px 12px;
+    text-decoration: none;
+    background: #e46161;
+    color: #fff;
+    display: inline-block;
+    transition: all .3s ease-in;
+}
+.borrar-curso:hover{
+    background: var(--indigo-hover);
+    color: var(--limon);
+}
+
+.img-carrito{
+    width: 40px;
+    border-radius: 5px;
+}
+.txt-carrito{
+    font-size: 12px;
+}
+/*Tarjetas*/
+.btn-indigo{
+    background: var(--indigo);
+    color: var(--limon);
+}
+.btn-indigo:hover{
+    background: var(--limon);
+    color: var(--indigo);
+}
+.estrella{
+    color: var(--limon);
+}
+.precio span{
+    font-weight: bold;
+    color: limegreen;
+}
+footer {
+    background: var(--indigo);
+}
